@@ -3,80 +3,66 @@
     margin: 0;
     padding: 0;
 }
-
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Medium.ttf);
 }
-
 @font-face {
     font-family: 'Roboto-LightItalic';
     src: url(../fonts/Roboto-LightItalic.ttf);
 }
-
 body {
     background-color: #FFFFFF;
 }
-
 .intro {
     background-color: #1F2937;
     padding: 20px 200px 0 200px;
     justify-content: center;
 }
-
 .logo {
     font-family: 'Roboto', sans-serif;
     color: #f9faf8;
     font-size: 24px;
     text-decoration: none;
 }
-
 .navbar {
     height: 12%;
     display: flex;
     align-items: center;
 }
-
 .nav {
     flex: 1;
     text-align: right;
 }
-
 .nav-item {
     list-style: none;
     display: inline-block;
     margin-left: 60px;
 }
-
 .nav-link {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
-
 .intro-content {
     padding: 100px 0 140px;
     display: flex;
     align-items: center;
 }
-
 .intro-col {
     flex-basis: 50%;
 }
-
 .intro-title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
     line-height: 1.5;
 }
-
 .intro-subtitle {
     color: #e5e7eb;
     font-size: 18px;
     line-height: 1.2;
 }
-
 .intro-button {
     background-color: #3882F6;
     border-radius: 7px;
@@ -85,16 +71,13 @@ body {
     padding: 10px 35px;
     margin-top: 20px;
 }
-
 .intro-img {
     width: 85%;
     float: right;
 }
-
 .work {
     padding: 30px 0 60px;
 }
-
 .work-title {
     text-align: center;
     padding-top: 20px;
@@ -102,7 +85,6 @@ body {
     color: #1F2937;
     font-weight: 900;
 }
-
 .portfolio {
     display: flex;
     flex-direction: row;
@@ -110,53 +92,44 @@ body {
     justify-content: center;
     padding: 40px 0 40px 0;
 }
-
 .portfolio-item {
     width: 250px;
     margin: 15px 20px;
     word-wrap: break-word;
     align-items: center;
 }
-
 .portolio-img {
     border-radius: 10%;
     border: 3px solid #3882F6;
     transition: transform 0.5s;
 }
-
 .portolio-img:hover {
     transform: translateY(-10px);
 }
-
 .portfolio-text {
     align-items: center;
     padding-top: 10px;
     text-align: center;
 }
-
 .testimonial {
     background-color: #e5e7eb;
     padding: 80px 300px;
     display: flex;
 }
-
 .testimonial-content {
     color: #1F2937;
     font-size: 36px;
     font-family: 'Roboto-LightItalic';
 }
-
 .testimonial-subcontent {
     float: right;
     font-weight: bold;
 }
-
 .cta {
     background-color: #3882F6;
     margin: 60px 250px;
     border-radius: 7px;
 }
-
 .cta-content {
     display: flex;
     color: #f9faf8;
@@ -165,7 +138,6 @@ body {
     justify-content: center;
     /* height: 88%; */
 }
-
 .cta-button {
     background-color: #3882F6;
     border-radius: 7px;
@@ -173,11 +145,9 @@ body {
     color: #f9faf8;
     padding: 10px 35px;
 }
-
 .cta-col {
     margin: 0 150px;
 }
-
 .footer {
     background-color: #1F2937;
     color: #f9faf8;
