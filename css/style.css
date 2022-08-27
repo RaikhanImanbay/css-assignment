@@ -11,9 +11,6 @@
     font-family: 'Roboto-LightItalic';
     src: url(../fonts/Roboto-LightItalic.ttf);
 }
-body {
-    background-color: #FFFFFF;
-}
 .intro {
     background-color: #1F2937;
     padding: 20px 200px 0 200px;
